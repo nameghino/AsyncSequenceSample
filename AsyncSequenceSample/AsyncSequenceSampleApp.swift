@@ -11,7 +11,7 @@ import SwiftUI
 struct AsyncSequenceSampleApp: App {
     var body: some Scene {
         WindowGroup {
-            let viewModel = LocationPublisherViewModel()
+            let viewModel = LocationAsyncSequenceViewModel()
             ContentView(locationViewModel: viewModel)
         }
     }
